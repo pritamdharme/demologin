@@ -18,7 +18,7 @@ public class LoginActv8 {
   @Test
   public void Login() {
 	  
-	  driver.findElement(By.xpath("//a[@title='My Account']")).click();
+	 // driver.findElement(By.xpath("//a[@title='My Account']")).click();
 	  driver.findElement(By.xpath("//input[@id='log']")).sendKeys("test");
       driver.findElement(By.xpath("//input[@id='pwd']")).sendKeys("password");
       driver.findElement(By.xpath("//input[@id='login']")).click();
